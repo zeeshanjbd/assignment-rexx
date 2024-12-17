@@ -1,0 +1,16 @@
+{
+  "name": "assignment/rexx",
+  "description": "A simple PHP application for managing event bookings with filtering and timezone handling.",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.0",
+    "vlucas/phpdotenv": "^4.3",
+    "ext-pdo": "*",
+    "ext-json": "*"
+  }
+}
